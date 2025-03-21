@@ -1,0 +1,61 @@
+**Report: Laptop Dataset Cleaning and Preparation**
+
+**Introduction:**
+This report provides a detailed overview of the data cleaning and preparation process performed on a laptop dataset. The goal was to ensure the dataset was accurate, consistent, and ready for analysis. The dataset did not contain missing values, but several steps were taken to clean and organize the data effectively.
+
+---
+
+**1. Data Cleaning Process:**
+
+The dataset underwent a thorough cleaning process to address inconsistencies and improve its quality. The following steps were performed:
+
+- **Column Standardization:**  
+  Column names were reviewed and standardized to ensure consistency. Special characters, spaces, and uppercase letters were replaced with underscores and lowercase letters. For example, "Laptop Name" was changed to "laptop_name" for easier referencing during analysis.
+
+- **Data Type Validation:**  
+  Each column was checked to ensure the correct data type. Numerical columns (e.g., price, RAM size, storage capacity) were converted to integers or floats, while categorical columns (e.g., brand, operating system) were converted to strings or categorical data types.
+
+---
+
+**2. Handling Categorical Data:**
+
+Categorical columns, such as brand, processor type, and operating system, were cleaned to ensure uniformity and accuracy:
+
+- **Standardization:**  
+  Variations in categorical values were standardized. For example, "Windows 10," "win 10," and "windows10" were all converted to "Windows 10" to maintain consistency.
+
+- **Typos and Errors:**  
+  Typos and errors in categorical data were identified and corrected. For instance, "MacOS" and "Mac OS" were unified into a single category, "macOS."
+
+---
+
+**3. Handling Numerical Data:**
+
+Numerical columns were carefully reviewed to ensure accuracy and consistency:
+
+- **Outlier Detection:**  
+  Outliers in numerical columns (e.g., unusually high or low prices) were identified and addressed. Outliers were either corrected or removed based on their relevance to the analysis.
+
+- **Unit Standardization:**  
+  Units were standardized across the dataset. For example, all storage sizes were converted to gigabytes (GB), and all weights were converted to kilograms (kg).
+
+---
+
+**4. Additional Data Cleaning Techniques:**
+
+- **Removing Duplicates:**  
+  Duplicate rows were identified and removed to ensure the dataset contained only unique entries. This step was crucial to avoid skewing the analysis results.
+
+- **Feature Engineering:**  
+  New columns were created to enhance the dataset's usability. For example, a "price_range" column was added to categorize laptops into budget, mid-range, and premium based on their price.
+
+- **Data Validation:**  
+  The dataset was thoroughly validated to ensure all cleaning steps were applied correctly. Cross-checks were performed to confirm the accuracy and consistency of the data.
+
+---
+
+**5. Final Dataset:**
+
+After the cleaning process, the dataset is now clean, consistent, and well-organized. It is free from inconsistencies, duplicates, and errors, making it suitable for in-depth analysis, visualization, and reporting.
+
+---
